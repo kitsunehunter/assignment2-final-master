@@ -1,13 +1,11 @@
 #!/usr/bin/env node
-
-"use strict";
-
 /*
 index.js
 xavier zhang
 300944977
 Oct 19 2021
 */
+"use strict";
 
 //this file handles all the server start up with creatign the port.
 var __importDefault =

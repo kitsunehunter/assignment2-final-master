@@ -1,10 +1,10 @@
-"use-strict";
 /*
 projectpage.js
 xavier zhang
 300944977
 Oct 19 2021
 */
+"use-strict";
 
 //getting the element ids of the values for the popUp to open and close
 const modal = document.getElementById("myModal");
