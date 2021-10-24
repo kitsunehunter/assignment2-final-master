@@ -1,0 +1,39 @@
+{
+    "name": "new-assignment1",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "12.6.0",
+        "npm": "6.0.0"
+      },
+    "dependencies": {
+        "@popperjs/core": "^2.9.2",
+        "@types/cookie-parser": "^1.4.2",
+        "@types/jquery": "^3.5.5",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^5.0.1",
+        "cookie-parser": "^1.4.5",
+        "debug": "^4.3.1",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-validator": "^6.11.1",
+        "http-errors": "^1.8.0",
+        "mongodb": "^3.6.9",
+        "mongoose": "^5.12.13",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "@types/bootstrap": "^5.0.15",
+        "@types/debug": "^4.1.5",
+        "@types/ejs": "^3.0.6",
+        "@types/express": "^4.17.12",
+        "@types/http-errors": "^1.8.0",
+        "@types/morgan": "^1.9.2",
+        "@types/node": "^15.6.1"
+    }
+    
+}

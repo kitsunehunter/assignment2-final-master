@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body id="aboutBody">
+    <%- include('../Components/NavBar.ejs') %>
+    <div class="page-header">
+      <h1>Xavier Zhang</h1>
+    </div>
+    <div class="jumbotron">
+      <div class="media">
+        <img
+          class="media-object"
+          src="Assets/img/xavier.png"
+          alt="Xavier"
+          width="300"
+        />
+      </div>
+      <div class="container">
+        <p class="col-sm-3">
+          Welcome to Xavier's online portfolio!<br />Select an option to
+          navigate to that page!
+        </p>
+      </div>
+    </div>
+    <%- include('../Components/footer.ejs') %>
+  </body>
+</html>

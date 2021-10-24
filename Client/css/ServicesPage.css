@@ -1,0 +1,88 @@
+/*
+servicespage.css
+xavier zhang
+300944977
+Oct 19 2021
+*/
+* {
+  color: whitesmoke;
+}
+
+#service-container {
+  background-color: #333533 !important;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 150px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.service-header {
+  text-align: center;
+}
+
+.service-body {
+  background-color: #1f223c;
+}
+
+.dig-logo {
+  width: 90px;
+  border-radius: 20px;
+  height: 90px;
+}
+
+.contact {
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.service-offer {
+  text-align: center;
+}
+
+.pastwork-widget {
+  border: 2px solid green;
+  text-align: center;
+}
+
+#dig-insights {
+  border: 1.5px solid black;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+#color-switch-game {
+  border: 1.5px solid black;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+#color-trek {
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+
+#pastWork {
+  padding: 5px;
+}
+
+#dig-insights {
+  background-color: #242424;
+}
+
+#color-switch-game {
+  background-color: #242424;
+}
+
+#color-trek {
+  background-color: #242424;
+}
+
+.view-more-tag {
+  text-align: center;
+}

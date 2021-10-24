@@ -1,0 +1,50 @@
+/*
+editcontact.css
+xavier zhang
+300944977
+Oct 19 2021
+*/
+.editContact-container {
+  border: 1.5px solid rgb(0, 0, 0);
+  margin-left: auto;
+  background-color: #009c94;
+  margin-right: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+#edit-formPage {
+  border: 1.5px solid black;
+  margin-top: 100px;
+  background-color: #212529;
+  padding: 100px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 40%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.editContact-input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#input {
+  width: 50%;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.editContact-btn {
+  background-color: #ff6d00;
+  border: 1.5px solid #ff9100;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.editContact-btn:active {
+  position: relative;
+  top: 4px;
+}

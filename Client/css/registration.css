@@ -1,0 +1,50 @@
+/*
+registration.css
+xavier zhang
+300944977
+Oct 19 2021
+*/
+.registration-body {
+  background-color: #262730;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.styled-div {
+  border: 1.5px solid black;
+  margin-left: auto;
+  border-radius: 20px;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  margin-top: 260px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #343a40;
+}
+
+.form-group {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#contact-label {
+  color: whitesmoke;
+}
+
+.form-input {
+  padding: 5px;
+  border: 0px;
+  background-color: darkgray;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#submit-btn {
+  margin-bottom: 20px;
+}

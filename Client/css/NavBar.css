@@ -1,0 +1,183 @@
+/*
+navbar.css
+xavier zhang
+300944977
+Oct 19 2021
+*/
+* {
+  margin: 0;
+}
+
+.brand {
+  margin-left: 70px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+#log-in {
+  margin-right: 10px;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.site-header {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto auto 230px;
+  z-index: 2;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #2f3258;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.button-icon {
+  height: 35px;
+  padding: 10px;
+  text-align: center;
+  width: 95px;
+  text-decoration: none;
+  color: Black;
+  border-radius: 5px;
+  transition: all 0.1s;
+  border: 1.5px solid black;
+  height: 20px;
+}
+
+#sign-in {
+  background-color: #60af5a;
+  box-shadow: 0px 3px 0px #4c8748;
+  border: solid 1px #60af5a;
+}
+
+#register-btn {
+  background-color: #1976d2;
+  box-shadow: 0px 3px 0px #1976d2;
+  border: solid 1px #1976d2;
+}
+
+.site-header__wrapper {
+  font-size: 20px;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#p-signIn {
+  margin-top: -7px;
+}
+
+#p-register {
+  margin-top: -7px;
+}
+
+.site-header__start {
+  display: flex;
+}
+
+.website-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.site-header__end {
+  width: 200px;
+  border: 1.5px solid black;
+}
+
+.nav__wrapper {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: Max(220px, 20%);
+  bottom: 0;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-100%);
+  background-color: #d9f0f7;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  display: block;
+}
+
+.nav__wrapper.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__item a {
+  display: block;
+  padding: 1.5rem 1rem;
+}
+
+.name-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.name-link:active {
+  text-decoration: none;
+  color: red;
+}
+
+.sub-nav {
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.sub-nav li {
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 599px) {
+  .sub-nav {
+    border: 1px solid green;
+    width: 300px;
+  }
+  .site-header__end {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .brand {
+    margin-left: 10px;
+  }
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
